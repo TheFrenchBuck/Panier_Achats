@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Panier_Achats/static/css/main.fa7c0aa6.css",
+    "main.js": "/Panier_Achats/static/js/main.545ccf8a.js",
+    "index.html": "/Panier_Achats/index.html",
+    "main.fa7c0aa6.css.map": "/Panier_Achats/static/css/main.fa7c0aa6.css.map",
+    "main.545ccf8a.js.map": "/Panier_Achats/static/js/main.545ccf8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa7c0aa6.css",
+    "static/js/main.545ccf8a.js"
+  ]
+}
