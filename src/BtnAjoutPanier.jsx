@@ -1,9 +1,9 @@
 import { Badge } from '@mui/material';
 import './BtnAjoutPanier.scss';
-export default function BtnAjoutPanier() { 
+export default function BtnAjoutPanier(props) { 
     return(
-        <Badge badge badgeContent="2" color="primary">
-        <button className="BtnAjoutPanier">Ajouter au panier</button>
+        <Badge badge badgeContent={props.qte} color="primary">
+        <button onClick={props.onClick} className="BtnAjoutPanier">Ajouter au panier</button>
         </Badge>
     );
 

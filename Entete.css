@@ -1,10 +1,67 @@
 .Entete {
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #444;
+  color: white;
+  height: 4rem;
+  z-index: 2;
 }
 
 .Entete h1 {
   font-size: 1.4rem;
+  padding: 1rem 2rem;
+}
+
+.Entete nav {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.Entete nav a {
+  padding-left: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.Entete nav #cc-somaire-panier:checked ~ .sommaire-panier {
+  transform: unset;
+}
+
+.Entete nav label {
+  cursor: pointer;
+}
+
+.Entete nav #cc-somaire-panier {
+  display: none;
+}
+
+.Entete nav .sommaire-panier {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  background-color: #3326e4;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  transform: translateX(100%);
+  transition: transform 0.5s;
+}
+
+.Entete nav .sommaire-panier h3 {
+  margin: 0;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.Entete nav .sommaire-panier div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px dotted white;
 }
 /*# sourceMappingURL=Entete.css.map */

@@ -7,5 +7,7 @@
     border-radius: 3px;
     cursor: pointer;
     font-weight: bold;
+    // sinon infopanier se fait cacher par lui
+    z-index:1;
 
 }

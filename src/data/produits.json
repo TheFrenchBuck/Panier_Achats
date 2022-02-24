@@ -18,5 +18,10 @@
         "id": "prd0004",
         "nom": "T-Shirt 4",
         "prix": 32.95
+    },
+    {
+        "id": "prd0005",
+        "nom": "Air Jordan 1",
+        "prix": 2250.89
     }
 ]

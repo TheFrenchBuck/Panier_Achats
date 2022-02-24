@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,UAAU,EAAE,cAAc;EAC1B,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,SAAS;EAClB,SAAS,EAAE,OAAO;EAClB,UAAU,EAAE,MAAM;CACrB",
     "sources": [
         "src/PiedPage.scss"
     ],

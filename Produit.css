@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=Produit.css.map */
+.Produit {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 5px 10px 10px 5px #7c7474;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Produit img {
+  width: 240px;
+}
+
+.Produit .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Produit .info .titre {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.Produit .info .prix:after {
+  content: '$CA';
+}
+/*# sourceMappingURL=Produit.css.map */

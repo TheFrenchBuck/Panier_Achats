@@ -3,13 +3,28 @@ margin: 0.5rem;
 padding: 0.5rem;
 text-align: center;
 box-shadow: 5px 10px 10px 5px rgba($color: #7c7474, $alpha: 1.0);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
 
 
-    .titre{
-        font-size: 1.25rem;
-        font-weight: bold;
+
+     img{
+        width: 240px;
     }
-    .prix:after{
-        content: '$CA';
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .titre{
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+        .prix:after{
+            content: '$CA';
+        }
     }
+   
 }
